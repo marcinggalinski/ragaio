@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>Raga.io - A story of one of many cells of Piotrek's body</title>
+		<style>
+			body {
+				margin:0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #2E434B;
+			}
+			canvas {
+				position: absolute;
+				top:0;
+				left:0;
+				display:none;
+			}
+			#content {
+				position: absolute;
+				top:0;
+				left:0;
+				color: white;
+				width: 100%;
+				height: 100%;
+				text-align:center;
+			}
+			#menu {
+				position: relative;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 30px;
+				background-color:rgb(58, 90, 102);
+				display: table;
+				border-bottom: 2px solid blue;
+				padding-left: 10px;
+				padding-right: 10px;
+				overflow: hidden;
+				vertical-align: middle;
+			}
+			#menu span {
+				text-align: center
+			}
+			#menu span li {
+				list-style-type: none;
+				float: left;
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+			}
+			#menu span li span {
+				display: inline-block;
+				line-height: 30px;
+				text-align: center;
+			}
+			#menu span li span a {
+				color: white;
+				width: 150px;
+				height: 30px;
+				text-decoration: none;
+				text-align: center;
+				display: block;
+			}
+			#logo {
+				margin-top: 10px;
+			}
+		</style>
+
+		<!-- favicons -->
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+		<link rel="manifest" href="img/favicons/site.webmanifest">
+		<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="img/favicons/favicon.ico">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- /favicons -->
+		
+		<script>
+			heheszki
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="menu">
+				<span>
+					<li><span><a href="http://185.201.114.124/dev/changelog.html">Changelog</a></span></li>
+					<li><span><a href="http://185.201.114.124/dev/todo.html">To-do list</a></span></li>
+				</span>
+			</div>
+			<div id="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div id="loginbox">
+				<span id="message"> </span><br>
+				This is a short yet glorious story of:</br>
+				<input id="name" type="text">
+				<button id="send">Send</button>
+			</div>
+		</div>
+		<script>
+			if(location.href[location.href.length - 1] != "/")
+			window.location.replace(location.href + "/");
+		</script>
+		<script src="js/socket.io.js"></script>					<!-- Plik fizycznie nie istnieje, jest zapewniany przez serwer -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/entity.js"></script>
+		<script src="js/sockets.js"></script>
+		
+	</body>
+</html>

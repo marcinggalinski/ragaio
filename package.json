@@ -1,0 +1,10 @@
+{
+  "name": "raga.io",
+  "version": "1.2.2",
+  "description": "Kind of a copy of Agar.io, however worse, because we have no idea about this job",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "socket.io": "^2.1.1"
+  }
+}

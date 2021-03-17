@@ -1,0 +1,6 @@
+How to launch:
+
+1. Open terminal, move to this folder
+2. When the first time, type "npm install"
+3. Type "node server/app.js"
+4. Open in browser "http://localhost:3000"
